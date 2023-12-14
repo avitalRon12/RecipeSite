@@ -1,0 +1,87 @@
+/* Overall Page Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Heading Styles */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 2rem;
+}
+
+/* Recipe List */
+.ulRecipes {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 0;
+    list-style: none;
+}
+
+/* Individual Recipe Styles */
+.ulRecipes li {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.ulRecipes li:hover {
+    transform: translateY(-10px);
+}
+
+.ulRecipes li a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 1rem;
+}
+
+.ulRecipes li p {
+    margin: 0.5rem 0;
+    color: #666;
+}
+
+.ulRecipes li img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 1rem 0 ;
+}
+
+/* Button Styles */
+button {
+    display: inline-block;
+    background-color: #ee8403;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ee5503;
+}
+
+.btn-removefromfavorite {
+    background-color: #e74c3c; /* A red shade for remove/unfavorite */
+}
+
+.btn-removefromfavorite:hover {
+    background-color: #c0392b; /* A darker red shade when hovered */
+}
+
+.pContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.recipeTitleDiv{
+    height: 2rem;
+    font-size: larger;
+    font-style: oblique;
+}

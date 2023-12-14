@@ -1,0 +1,18 @@
+.mainDiv {
+  position: relative;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%,0%);
+  padding: 10px;
+  z-index: -1;
+}
+
+.d1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.d2 {
+  display: flex;
+  justify-content: space-around;
+}
